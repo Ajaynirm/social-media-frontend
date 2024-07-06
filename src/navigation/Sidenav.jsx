@@ -47,7 +47,7 @@ const Sidenav = () => {
         <div className="sidenav_more">
         <button className="sidenav_button">
           <MenuIcon />
-          <span>Home</span>
+          <span>Menu</span>
         </button>
         </div>
        

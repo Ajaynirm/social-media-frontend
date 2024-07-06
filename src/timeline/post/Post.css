@@ -12,6 +12,7 @@
 .post_headerAuthor{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     font-weight: bolder;
 }
@@ -25,18 +26,20 @@
     border-radius: 6px;
     border: 0.6px solid rgba(128, 128, 128, 0.516);
   }
-  .post_footerIcons{
+  
+  .post_footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 5px;
   }
-  .postIcon {
-    padding: 7px;
-    font-size: 30px;
-  }
-  
-  .postIcon :hover {
-    cursor: pointer;
-  }
-  
+.post_Icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.post_Icons:hover{
+  cursor: pointer;
+}
+ 
