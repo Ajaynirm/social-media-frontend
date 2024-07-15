@@ -1,4 +1,4 @@
-.timeline{
+/*.timeline{
     display: flex;
     flex-direction: row;
 }
@@ -8,3 +8,22 @@
 .timeline_right{
     flex: 0.3;
 }
+*/
+
+
+  
+  @media screen and (max-width: 900px) {
+    .timeline {
+      flex-direction: column;
+      
+    }
+  
+    .timeline_left{
+       /* Reset flex properties */
+       /* Full width for smaller screens */
+       flex-basis: 80%;
+    }
+  }
+  
+  
+
