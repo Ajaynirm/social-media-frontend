@@ -1,4 +1,5 @@
 # social media Home page using Reactjs
+  deployed on vercel - responsive web design 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
